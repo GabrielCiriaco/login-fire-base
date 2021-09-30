@@ -8,6 +8,11 @@ import { ForgotPasswordComponent } from './components/forgot-password/forgot-pas
 //import { AuthGuard } from "./shared/guard/auth.guard";
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 
+import { DashboardRoutes } from "./dashboard/dashboard-routing.module";
+import { CalculadoraRoutes } from "./calculadora/calculadora-routing.module";
+import { TarefaRoutes } from "./tarefas/tarefas.routing.module";
+import { JogoDaVelhaRoutes } from "./jogo-da-velha/jogo-da-velha-routing.module";
+
 
 const routes: Routes = [
   { path: '', 
@@ -27,7 +32,12 @@ const routes: Routes = [
     component: ForgotPasswordComponent },
 
   { path: 'verify-email-address', 
-    component: VerifyEmailComponent }
+    component: VerifyEmailComponent },
+  
+    ...DashboardRoutes,
+    ...CalculadoraRoutes,
+    ...TarefaRoutes,
+    ...JogoDaVelhaRoutes
 ];
 
 @NgModule({

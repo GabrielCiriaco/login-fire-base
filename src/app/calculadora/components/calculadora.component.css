@@ -1,0 +1,42 @@
+.kz-btn {
+    width: 75%;
+    height: 50px;
+    margin: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+.kz-input-text {
+    margin-top: 10px;
+    width:96%;
+    height: 50px;
+	margin-left:6px;
+    font-family: 'Orbitron', sans-serif;
+}
+.kz-pad-20 {
+	padding: 20px;
+}
+.col-xs-3, .col-xs-9 {
+	padding: 0px;
+}
+
+.calculadora{
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    
+}
+
+.fundo{
+    background-color: black;
+}
+
+h1{
+    margin-top:0px;
+    font-family: 'Orbitron', sans-serif;
+}
+.back{
+    background-image: url(../../../assets/imagens/math.jpg);
+    background-size:115%;
+    margin-top: -70px;
+    
+ }
